@@ -8,6 +8,7 @@ import {
     SheetContent,
     SheetTrigger,
 } from "@/components/ui/sheet"
+import Image from "next/image";
 
 const Nav = () => {
     return (
@@ -24,6 +25,9 @@ const Nav = () => {
                         </SheetTrigger>
                         <SheetContent side='left'>
                             <div className="grid gap-2 py-6">
+                                <Link href='/'>
+                                <div className="m-auto"><Image src='https://i.ibb.co/6rDQ2vR/Black-Beige-Minimalist-Simple-Modern-Typography-Vanilla-Cosmetics-Logo-3-removebg-preview.png' width={200}  height={100} alt="logo"/></div>
+                                </Link>
                                 <Link href='/'>Home</Link>
                                 <Link href='/'>Blogs</Link>
                                 <Link href='/'>Prodcasts</Link>
@@ -37,7 +41,7 @@ const Nav = () => {
                     <NavigationMenu>
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <Link href="/">
+                                <Link href="/" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         Home
                                     </NavigationMenuLink>
@@ -45,23 +49,27 @@ const Nav = () => {
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <Link href="/">
+                                <Link href="/" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         Blogs
                                     </NavigationMenuLink>
                                 </Link>
                             </NavigationMenuItem>
-
                             <NavigationMenuItem>
-                                <Link href="/">
+                                <Link href="/" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         Procasts
                                     </NavigationMenuLink>
                                 </Link>
                             </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                        <div className="m-auto"><Image src='https://i.ibb.co/6rDQ2vR/Black-Beige-Minimalist-Simple-Modern-Typography-Vanilla-Cosmetics-Logo-3-removebg-preview.png' width={200}  height={100} alt="logo" /></div>
+                                    </NavigationMenuLink>
+                            </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <Link href="/">
+                                <Link href="/" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         Contact
                                     </NavigationMenuLink>
@@ -69,7 +77,7 @@ const Nav = () => {
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <Link href="/">
+                                <Link href="/" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         Documentation
                                     </NavigationMenuLink>
