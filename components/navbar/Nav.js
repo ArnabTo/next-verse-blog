@@ -53,7 +53,7 @@ const Nav = () => {
                                 <NavigationMenuItem>
                                     <Link href="/" legacyBehavior passHref>
                                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                            Home
+                                                        <span className="text-[gray]">Home</span>
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>
@@ -61,21 +61,31 @@ const Nav = () => {
                                 <NavigationMenuItem>
                                     <Link href="/" legacyBehavior passHref>
                                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                            Blogs
+                                        <span className="text-[gray]">Blogs</span>
+                                        
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
                                     <Link href="/" legacyBehavior passHref>
                                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                            Procasts
+                                        <span className="text-[gray]">Procasts</span>
+                                                                     
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
                                     <Link href="/" legacyBehavior passHref>
                                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                            Contact
+                                        <span className="text-[gray]">Shop</span>
+                                                                     
+                                        </NavigationMenuLink>
+                                    </Link>
+                                </NavigationMenuItem>
+                                <NavigationMenuItem>
+                                    <Link href="/" legacyBehavior passHref>
+                                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                        <span className="text-[gray]">Contact</span>
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>

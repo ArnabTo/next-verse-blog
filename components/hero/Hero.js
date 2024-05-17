@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import './hero.css'
 
 const Hero = () => {
     return (
@@ -43,7 +44,7 @@ const Hero = () => {
                                     <span className=" text-white text-sm font-semibold bg-gray-600 px-2 py-1 rounded-md w-max">
                                         Label
                                     </span>
-                                    <h2 className="text-black text-2xl mt-2 group-hover:underline transition duration-250 ease-in-out  ">
+                                    <h2 className="text-black text-2xl mt-2 group-hover:underline transition duration-250 ease-in-out">
                                         Beauty of Iphone in the market of all phone
                                     </h2>
                                 </div>
@@ -85,8 +86,8 @@ const Hero = () => {
                                     <span className=" text-white text-sm font-semibold bg-blue-600 px-2 py-1 rounded-md w-max">
                                         Label
                                     </span>
-                                    <h2 className="text-black text-2xl mt-2">
-                                        Beauty of Iphone in the market of all phones
+                                    <h2 className="text-black text-2xl mt-2 group-hover:underline transition duration-250 ease-in-out">
+                                        Beauty of Iphone in the market of all phone
                                     </h2>
                                 </div>
                             </div>
@@ -114,7 +115,10 @@ const Hero = () => {
                         </Link>
                     </div>
                 </div>
-                <div></div>
+                <div>
+
+
+                </div>
             </div>
         </div>
     );
