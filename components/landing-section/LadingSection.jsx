@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 const LadingSection = () => {
     return (
-        <div className=" -mt-20 relative z-10 ">
+        <div className=" -mt-20 relative z-10 mb-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 bg-[#1C1C1C]">
                 <div className="  text-white p-10 flex justify-center items-center">
                     <div className="mt-40 mb-12 lg:max-w-[90%] lg:ml-auto">
