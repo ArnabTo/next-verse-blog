@@ -12,9 +12,9 @@ import { Button } from "../ui/button";
 
 const Nav = () => {
     return (
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto bg-white z-20 relative rounded-b-3xl">
             <div>
-                <div className="flex md:hidden">
+                <div className="flex lg:hidden">
                     <Sheet>
                         <SheetTrigger className=' mx-4 my-5'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={28} height={28} color={"#000000"} fill={"none"}>
@@ -45,7 +45,7 @@ const Nav = () => {
                     </Sheet>
                     <div className="flex m-auto"><Image src='https://i.ibb.co/6rDQ2vR/Black-Beige-Minimalist-Simple-Modern-Typography-Vanilla-Cosmetics-Logo-3-removebg-preview.png' width={200} height={100} alt="logo" /></div>
                 </div>
-                <div className=" hidden md:flex ">
+                <div className=" hidden lg:flex ">
                     <div className="m-auto"><Image src='https://i.ibb.co/6rDQ2vR/Black-Beige-Minimalist-Simple-Modern-Typography-Vanilla-Cosmetics-Logo-3-removebg-preview.png' width={200} height={100} alt="logo" /></div>
                     <div className="m-auto">
                         <NavigationMenu>

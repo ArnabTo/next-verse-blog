@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import './hero.css'
+import HeroCarousel from "./hero-carousel/HeroCarousel";
 
 const Hero = () => {
     return (
@@ -115,8 +116,9 @@ const Hero = () => {
                         </Link>
                     </div>
                 </div>
-                <div>
+                <div className="my-16">
 
+                <HeroCarousel/>
 
                 </div>
             </div>
