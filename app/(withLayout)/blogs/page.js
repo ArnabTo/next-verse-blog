@@ -1,6 +1,5 @@
 import AllBlogs from "@/components/blogs/AllBlogs";
 
-
 async function fetchAllBlogs() {
     try {
         const apiResponse = await fetch('http://localhost:3000/api/get-blogs', {

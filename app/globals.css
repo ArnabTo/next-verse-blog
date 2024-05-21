@@ -49,3 +49,11 @@
     --ring: 263.4 70% 50.4%;
   }
 }
+
+
+.loader {
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  top: 50%;
+}
