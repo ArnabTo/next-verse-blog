@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
 import Autoplay from 'embla-carousel-autoplay'
 import { useRef } from "react";
+import connectDB from "@/database";
+
 const AdsSection = () => {
 
     const plugin = useRef(

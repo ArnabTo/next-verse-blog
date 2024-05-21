@@ -59,7 +59,7 @@ const Nav = () => {
                                 </NavigationMenuItem>
 
                                 <NavigationMenuItem>
-                                    <Link href="/" legacyBehavior passHref>
+                                    <Link href="/blogs" legacyBehavior passHref>
                                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         <span className="text-[gray]">Blogs</span>
                                         

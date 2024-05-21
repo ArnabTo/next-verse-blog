@@ -1,0 +1,118 @@
+[
+    {
+      "title": "Exploring the Future of AI",
+      "author": "Alice Johnson",
+      "body": "Artificial intelligence is rapidly advancing, transforming industries and our daily lives. From healthcare to finance, AI is becoming an integral part of modern society.",
+      "summary": "An in-depth look at the advancements and implications of artificial intelligence in various sectors.",
+      "tags": ["AI", "technology", "future"],
+      "category": "Technology",
+      "comments": [
+        {
+          "author": "Bob Smith",
+          "text": "Great article! AI is truly fascinating.",
+          "date": "2024-05-01T10:15:30Z"
+        },
+        {
+          "author": "Jane Doe",
+          "text": "I agree, AI is revolutionizing many fields.",
+          "date": "2024-05-02T14:22:10Z"
+        }
+      ],
+      "created_at": "2024-05-01T09:00:00Z",
+      "updated_at": "2024-05-02T12:00:00Z",
+      "published": true,
+      "published_at": "2024-05-01T09:30:00Z",
+      "slug": "exploring-the-future-of-ai",
+      "thumbnail": "https://example.com/thumbnails/ai-future.jpg"
+    },
+    {
+      "title": "10 Healthy Habits for a Better Life",
+      "author": "Michael Brown",
+      "body": "Incorporating healthy habits into your daily routine can significantly improve your overall well-being. Here are ten habits to consider for a healthier lifestyle.",
+      "summary": "Ten essential habits to adopt for a healthier and more fulfilling life.",
+      "tags": ["health", "lifestyle", "well-being"],
+      "category": "Health",
+      "comments": [
+        {
+          "author": "Susan Green",
+          "text": "This is very helpful! I've been looking to improve my daily routine.",
+          "date": "2024-05-10T08:45:20Z"
+        }
+      ],
+      "created_at": "2024-05-08T08:00:00Z",
+      "updated_at": "2024-05-10T10:00:00Z",
+      "published": true,
+      "published_at": "2024-05-08T09:00:00Z",
+      "slug": "10-healthy-habits-for-a-better-life",
+      "thumbnail": "https://example.com/thumbnails/healthy-habits.jpg"
+    },
+    {
+      "title": "Understanding Blockchain Technology",
+      "author": "Emma White",
+      "body": "Blockchain technology is the backbone of cryptocurrencies like Bitcoin and Ethereum. It provides a secure and decentralized way to record transactions and manage data.",
+      "summary": "A comprehensive guide to understanding the fundamentals and applications of blockchain technology.",
+      "tags": ["blockchain", "technology", "cryptocurrency"],
+      "category": "Finance",
+      "comments": [
+        {
+          "author": "David Black",
+          "text": "Very informative! Blockchain has a lot of potentials.",
+          "date": "2024-05-15T11:30:45Z"
+        },
+        {
+          "author": "Emily Brown",
+          "text": "Thanks for breaking down such a complex topic!",
+          "date": "2024-05-16T09:20:30Z"
+        }
+      ],
+      "created_at": "2024-05-12T09:00:00Z",
+      "updated_at": "2024-05-15T12:00:00Z",
+      "published": true,
+      "published_at": "2024-05-12T10:00:00Z",
+      "slug": "understanding-blockchain-technology",
+      "thumbnail": "https://example.com/thumbnails/blockchain.jpg"
+    },
+    {
+      "title": "Top 5 Travel Destinations for 2024",
+      "author": "Olivia Blue",
+      "body": "Discover the top travel destinations for 2024, from exotic beaches to bustling cities. Get ready to pack your bags and explore new horizons.",
+      "summary": "A list of the top five travel destinations you should consider visiting in 2024.",
+      "tags": ["travel", "destinations", "2024"],
+      "category": "Lifestyle",
+      "comments": [
+        {
+          "author": "James Grey",
+          "text": "Can't wait to visit these places!",
+          "date": "2024-05-20T15:40:50Z"
+        }
+      ],
+      "created_at": "2024-05-18T10:00:00Z",
+      "updated_at": "2024-05-20T11:00:00Z",
+      "published": true,
+      "published_at": "2024-05-18T11:00:00Z",
+      "slug": "top-5-travel-destinations-2024",
+      "thumbnail": "https://example.com/thumbnails/travel-2024.jpg"
+    },
+    {
+      "title": "The Benefits of Learning a Second Language",
+      "author": "Liam Purple",
+      "body": "Learning a second language can open up numerous opportunities and enhance cognitive abilities. Here are some compelling reasons to start learning a new language today.",
+      "summary": "Exploring the various benefits of becoming bilingual or multilingual.",
+      "tags": ["education", "language", "learning"],
+      "category": "Education",
+      "comments": [
+        {
+          "author": "Sophia Violet",
+          "text": "I've always wanted to learn Spanish. This is motivating!",
+          "date": "2024-05-21T13:15:30Z"
+        }
+      ],
+      "created_at": "2024-05-19T12:00:00Z",
+      "updated_at": "2024-05-21T14:00:00Z",
+      "published": true,
+      "published_at": "2024-05-19T13:00:00Z",
+      "slug": "benefits-of-learning-second-language",
+      "thumbnail": "https://example.com/thumbnails/second-language.jpg"
+    }
+  ]
+  
