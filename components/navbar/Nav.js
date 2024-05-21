@@ -30,7 +30,7 @@ const Nav = () => {
 
                                 </Link>
                                 <Link href='/'>Home</Link>
-                                <Link href='/'>Blogs</Link>
+                                <Link href='/blogs'>Blogs</Link>
                                 <Link href='/'>Prodcasts</Link>
                                 <Link href='/'>Contact</Link>
                                 <Link href='/'>About</Link>
