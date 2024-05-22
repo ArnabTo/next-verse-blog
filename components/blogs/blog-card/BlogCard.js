@@ -9,19 +9,19 @@ const BlogCard = ({ blog }) => {
         <div>
             <Link href='/'>
                 <div className="group md:flex justify-center items-center gap-5">
-                    <div className="overflow-hidden rounded-3xl max-w-xs">
+                    <div className="overflow-hidden rounded-3xl lg:max-w-[17rem]">
                         <Image
                             src={blog.thumbnail}
-                            width={800}
-                            height={800}
+                            width={500}
+                            height={500}
                             alt="Blog Post"
                             className="w-full object-cover shadow-lg rounded-2xl transition-transform duration-500 ease-in-out group-hover:scale-110"
                         />
                     </div>
-                    <div className='mt-4 border-[1px] border-bg-gray-600 p-5 rounded-lg w-full lg:w-[80%]'>
-                        {/* <span className=" text-black text-sm font-semibold bg-gray-600 px-2 py-1 rounded-md w-max">
+                    <div className='mt-4 border-[1px] border-gray-200 p-5 rounded-lg w-full lg:w-[80%] group-hover:shadow-xl transition-all delay-100'>
+                        <span className=" text-black text-sm font-semibold bg-gray-600 px-2 py-1 rounded-md w-max">
                             Label
-                        </span> */}
+                        </span>
                         <h2 className="text-black text-2xl mt-2 group-hover:underline transition duration-250 ease-in-out">
                           {blog?.title}
                         </h2>
