@@ -21,7 +21,7 @@ const BlogCard = ({ blog }) => {
                     </div>
                     <div className='mt-4 border-[1px] border-gray-200 p-5 rounded-lg w-full lg:w-[80%] group-hover:shadow-xl transition-all delay-100'>
                        <Badge>{blog?.category}</Badge>
-                        <h2 className="text-black text-2xl mt-2 group-hover:underline transition duration-250 ease-in-out">
+                        <h2 className="text-black text-2xl font-bold mt-2 group-hover:underline transition duration-250 ease-in-out">
                           {blog?.title}
                         </h2>
                         <p className="text-base text-gray-900 my-4">{blog?.summary}</p>
