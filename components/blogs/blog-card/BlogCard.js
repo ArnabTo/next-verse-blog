@@ -1,4 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,9 +20,7 @@ const BlogCard = ({ blog }) => {
                         />
                     </div>
                     <div className='mt-4 border-[1px] border-gray-200 p-5 rounded-lg w-full lg:w-[80%] group-hover:shadow-xl transition-all delay-100'>
-                        <span className=" text-black text-sm font-semibold bg-gray-600 px-2 py-1 rounded-md w-max">
-                            Label
-                        </span>
+                       <Badge>{blog?.category}</Badge>
                         <h2 className="text-black text-2xl mt-2 group-hover:underline transition duration-250 ease-in-out">
                           {blog?.title}
                         </h2>
