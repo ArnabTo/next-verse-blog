@@ -6,7 +6,7 @@ import { Separator } from "../ui/separator";
 const AllBlogs = ({ allBlogs }) => {
 
     const recentBlogPosts = allBlogs.sort((a, b) => new Date(b.published_at) - new Date(a.published_at)).slice(0, 3);
-    console.log(recentBlogPosts)
+
     return (
         <div>
             <div className="bg-gray-200">

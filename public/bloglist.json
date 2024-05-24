@@ -1,118 +1,217 @@
 [
-    {
-      "title": "Exploring the Future of AI",
-      "author": "Alice Johnson",
-      "body": "Artificial intelligence is rapidly advancing, transforming industries and our daily lives. From healthcare to finance, AI is becoming an integral part of modern society.",
-      "summary": "An in-depth look at the advancements and implications of artificial intelligence in various sectors.",
-      "tags": ["AI", "technology", "future"],
-      "category": "Technology",
-      "comments": [
-        {
-          "author": "Bob Smith",
-          "text": "Great article! AI is truly fascinating.",
-          "date": "2024-05-01T10:15:30Z"
-        },
-        {
-          "author": "Jane Doe",
-          "text": "I agree, AI is revolutionizing many fields.",
-          "date": "2024-05-02T14:22:10Z"
-        }
-      ],
-      "created_at": "2024-05-01T09:00:00Z",
-      "updated_at": "2024-05-02T12:00:00Z",
-      "published": true,
-      "published_at": "2024-05-01T09:30:00Z",
-      "slug": "exploring-the-future-of-ai",
-      "thumbnail": "https://example.com/thumbnails/ai-future.jpg"
-    },
-    {
-      "title": "10 Healthy Habits for a Better Life",
-      "author": "Michael Brown",
-      "body": "Incorporating healthy habits into your daily routine can significantly improve your overall well-being. Here are ten habits to consider for a healthier lifestyle.",
-      "summary": "Ten essential habits to adopt for a healthier and more fulfilling life.",
-      "tags": ["health", "lifestyle", "well-being"],
-      "category": "Health",
-      "comments": [
-        {
-          "author": "Susan Green",
-          "text": "This is very helpful! I've been looking to improve my daily routine.",
-          "date": "2024-05-10T08:45:20Z"
-        }
-      ],
-      "created_at": "2024-05-08T08:00:00Z",
-      "updated_at": "2024-05-10T10:00:00Z",
-      "published": true,
-      "published_at": "2024-05-08T09:00:00Z",
-      "slug": "10-healthy-habits-for-a-better-life",
-      "thumbnail": "https://example.com/thumbnails/healthy-habits.jpg"
-    },
-    {
-      "title": "Understanding Blockchain Technology",
-      "author": "Emma White",
-      "body": "Blockchain technology is the backbone of cryptocurrencies like Bitcoin and Ethereum. It provides a secure and decentralized way to record transactions and manage data.",
-      "summary": "A comprehensive guide to understanding the fundamentals and applications of blockchain technology.",
-      "tags": ["blockchain", "technology", "cryptocurrency"],
-      "category": "Finance",
-      "comments": [
-        {
-          "author": "David Black",
-          "text": "Very informative! Blockchain has a lot of potentials.",
-          "date": "2024-05-15T11:30:45Z"
-        },
-        {
-          "author": "Emily Brown",
-          "text": "Thanks for breaking down such a complex topic!",
-          "date": "2024-05-16T09:20:30Z"
-        }
-      ],
-      "created_at": "2024-05-12T09:00:00Z",
-      "updated_at": "2024-05-15T12:00:00Z",
-      "published": true,
-      "published_at": "2024-05-12T10:00:00Z",
-      "slug": "understanding-blockchain-technology",
-      "thumbnail": "https://example.com/thumbnails/blockchain.jpg"
-    },
-    {
-      "title": "Top 5 Travel Destinations for 2024",
-      "author": "Olivia Blue",
-      "body": "Discover the top travel destinations for 2024, from exotic beaches to bustling cities. Get ready to pack your bags and explore new horizons.",
-      "summary": "A list of the top five travel destinations you should consider visiting in 2024.",
-      "tags": ["travel", "destinations", "2024"],
-      "category": "Lifestyle",
-      "comments": [
-        {
-          "author": "James Grey",
-          "text": "Can't wait to visit these places!",
-          "date": "2024-05-20T15:40:50Z"
-        }
-      ],
-      "created_at": "2024-05-18T10:00:00Z",
-      "updated_at": "2024-05-20T11:00:00Z",
-      "published": true,
-      "published_at": "2024-05-18T11:00:00Z",
-      "slug": "top-5-travel-destinations-2024",
-      "thumbnail": "https://example.com/thumbnails/travel-2024.jpg"
-    },
-    {
-      "title": "The Benefits of Learning a Second Language",
-      "author": "Liam Purple",
-      "body": "Learning a second language can open up numerous opportunities and enhance cognitive abilities. Here are some compelling reasons to start learning a new language today.",
-      "summary": "Exploring the various benefits of becoming bilingual or multilingual.",
-      "tags": ["education", "language", "learning"],
-      "category": "Education",
-      "comments": [
-        {
-          "author": "Sophia Violet",
-          "text": "I've always wanted to learn Spanish. This is motivating!",
-          "date": "2024-05-21T13:15:30Z"
-        }
-      ],
-      "created_at": "2024-05-19T12:00:00Z",
-      "updated_at": "2024-05-21T14:00:00Z",
-      "published": true,
-      "published_at": "2024-05-19T13:00:00Z",
-      "slug": "benefits-of-learning-second-language",
-      "thumbnail": "https://example.com/thumbnails/second-language.jpg"
-    }
-  ]
-  
+  {
+    "title": "The Impact of Climate Change on Global Agriculture",
+    "author": "George Miller",
+    "body": "Climate change is having a profound impact on global agriculture, affecting crop yields, soil health, and water availability. This article explores the various ways climate change is altering the agricultural landscape.",
+    "summary": "An analysis of how climate change is influencing agricultural practices worldwide.",
+    "tags": ["climate change", "agriculture", "environment"],
+    "category": "Education",
+    "comments": [
+      {
+        "author": "Laura Smith",
+        "text": "Very insightful. Climate change is a serious issue.",
+        "date": "2024-05-22T10:30:00Z"
+      }
+    ],
+    "created_at": "2024-05-20T09:00:00Z",
+    "updated_at": "2024-05-22T11:00:00Z",
+    "published": true,
+    "published_at": "2024-05-20T10:00:00Z",
+    "slug": "impact-of-climate-change-on-global-agriculture",
+    "thumbnail": "https://example.com/thumbnails/climate-change-agriculture.jpg"
+  },
+  {
+    "title": "Mastering the Art of Remote Work",
+    "author": "Emily Davis",
+    "body": "Remote work is becoming increasingly popular, offering flexibility and convenience. This guide provides tips and strategies to help you excel while working from home.",
+    "summary": "Tips and strategies to improve productivity and work-life balance when working remotely.",
+    "tags": ["remote work", "productivity", "work-life balance"],
+    "category": "Lifestyle",
+    "comments": [
+      {
+        "author": "Chris Adams",
+        "text": "Great tips! Remote work can be challenging.",
+        "date": "2024-05-23T12:45:00Z"
+      }
+    ],
+    "created_at": "2024-05-21T10:00:00Z",
+    "updated_at": "2024-05-23T13:00:00Z",
+    "published": true,
+    "published_at": "2024-05-21T11:00:00Z",
+    "slug": "mastering-the-art-of-remote-work",
+    "thumbnail": "https://example.com/thumbnails/remote-work.jpg"
+  },
+  {
+    "title": "Investing in Cryptocurrency: A Beginner's Guide",
+    "author": "Kevin White",
+    "body": "Cryptocurrency is a volatile yet potentially lucrative investment. This guide covers the basics of investing in cryptocurrency, including how to buy, store, and trade digital currencies.",
+    "summary": "An introductory guide for beginners looking to invest in cryptocurrency.",
+    "tags": ["cryptocurrency", "investment", "finance"],
+    "category": "Finance",
+    "comments": [
+      {
+        "author": "Nina Brown",
+        "text": "This was very helpful. I feel more confident about investing in crypto now.",
+        "date": "2024-05-24T09:30:00Z"
+      },
+      {
+        "author": "Alex Green",
+        "text": "Great guide for beginners. Thanks for the tips!",
+        "date": "2024-05-24T10:45:00Z"
+      }
+    ],
+    "created_at": "2024-05-22T09:00:00Z",
+    "updated_at": "2024-05-24T11:00:00Z",
+    "published": true,
+    "published_at": "2024-05-22T10:00:00Z",
+    "slug": "investing-in-cryptocurrency-beginners-guide",
+    "thumbnail": "https://example.com/thumbnails/cryptocurrency-guide.jpg"
+  },
+  {
+    "title": "The Benefits of Mindfulness Meditation",
+    "author": "Sophia Blue",
+    "body": "Mindfulness meditation can reduce stress, improve focus, and enhance emotional well-being. This article explores the benefits of mindfulness and provides tips for incorporating it into your daily routine.",
+    "summary": "Exploring the benefits of mindfulness meditation and how to practice it.",
+    "tags": ["mindfulness", "meditation", "well-being"],
+    "category": "Health",
+    "comments": [
+      {
+        "author": "Mark Yellow",
+        "text": "Mindfulness has helped me a lot. Great article!",
+        "date": "2024-05-25T08:15:00Z"
+      }
+    ],
+    "created_at": "2024-05-23T10:00:00Z",
+    "updated_at": "2024-05-25T09:00:00Z",
+    "published": true,
+    "published_at": "2024-05-23T11:00:00Z",
+    "slug": "benefits-of-mindfulness-meditation",
+    "thumbnail": "https://example.com/thumbnails/mindfulness-meditation.jpg"
+  },
+  {
+    "title": "The Evolution of Mobile Technology",
+    "author": "Brian Red",
+    "body": "Mobile technology has come a long way since the first cell phones. This article traces the evolution of mobile technology, highlighting key milestones and future trends.",
+    "summary": "A look at the history and future of mobile technology.",
+    "tags": ["mobile technology", "innovation", "future"],
+    "category": "Technology",
+    "comments": [
+      {
+        "author": "Anna Black",
+        "text": "Interesting read! Mobile technology has indeed transformed our lives.",
+        "date": "2024-05-26T07:30:00Z"
+      }
+    ],
+    "created_at": "2024-05-24T09:00:00Z",
+    "updated_at": "2024-05-26T08:00:00Z",
+    "published": true,
+    "published_at": "2024-05-24T10:00:00Z",
+    "slug": "evolution-of-mobile-technology",
+    "thumbnail": "https://example.com/thumbnails/mobile-technology.jpg"
+  },
+  {
+    "title": "Effective Budgeting Tips for Young Adults",
+    "author": "Catherine Pink",
+    "body": "Budgeting is an essential skill for young adults to manage their finances effectively. This article provides practical tips on creating and sticking to a budget.",
+    "summary": "Tips and strategies for young adults to manage their finances through effective budgeting.",
+    "tags": ["budgeting", "finance", "young adults"],
+    "category": "Finance",
+    "comments": [
+      {
+        "author": "Dan Orange",
+        "text": "This is very useful. I need to start budgeting more effectively.",
+        "date": "2024-05-27T10:15:00Z"
+      }
+    ],
+    "created_at": "2024-05-25T08:00:00Z",
+    "updated_at": "2024-05-27T11:00:00Z",
+    "published": true,
+    "published_at": "2024-05-25T09:00:00Z",
+    "slug": "effective-budgeting-tips-young-adults",
+    "thumbnail": "https://example.com/thumbnails/budgeting-tips.jpg"
+  },
+  {
+    "title": "The Rise of Electric Vehicles",
+    "author": "Oliver Green",
+    "body": "Electric vehicles (EVs) are gaining popularity as a sustainable alternative to traditional gasoline cars. This article discusses the rise of EVs, their benefits, and the future of transportation.",
+    "summary": "An overview of the growth of electric vehicles and their impact on the future of transportation.",
+    "tags": ["electric vehicles", "transportation", "sustainability"],
+    "category": "Technology",
+    "comments": [
+      {
+        "author": "Paul White",
+        "text": "EVs are the future. Great read!",
+        "date": "2024-05-28T12:00:00Z"
+      }
+    ],
+    "created_at": "2024-05-26T09:00:00Z",
+    "updated_at": "2024-05-28T13:00:00Z",
+    "published": true,
+    "published_at": "2024-05-26T10:00:00Z",
+    "slug": "rise-of-electric-vehicles",
+    "thumbnail": "https://example.com/thumbnails/electric-vehicles.jpg"
+  },
+  {
+    "title": "Balancing Career and Family Life",
+    "author": "Grace Blue",
+    "body": "Balancing a career and family life can be challenging. This article offers tips and advice on how to manage both effectively without compromising on either.",
+    "summary": "Advice on achieving a healthy balance between career aspirations and family responsibilities.",
+    "tags": ["work-life balance", "career", "family"],
+    "category": "Lifestyle",
+    "comments": [
+      {
+        "author": "Henry Black",
+        "text": "Balancing both can be tough. Thanks for the tips!",
+        "date": "2024-05-29T14:45:00Z"
+      }
+    ],
+    "created_at": "2024-05-27T09:00:00Z",
+    "updated_at": "2024-05-29T15:00:00Z",
+    "published": true,
+    "published_at": "2024-05-27T10:00:00Z",
+    "slug": "balancing-career-and-family-life",
+    "thumbnail": "https://example.com/thumbnails/career-family.jpg"
+  },
+  {
+    "title": "Exploring the World of Virtual Reality",
+    "author": "James Red",
+    "body": "Virtual reality (VR) technology is changing the way we interact with digital environments. This article explores the current state of VR, its applications, and future potential.",
+    "summary": "An exploration of virtual reality technology, its uses, and its future prospects.",
+    "tags": ["virtual reality", "technology", "innovation"],
+    "category": "Technology",
+    "comments": [
+      {
+        "author": "Katie Blue",
+        "text": "VR is so exciting. Can't wait to see what's next.",
+        "date": "2024-05-30T10:00:00Z"
+      }
+    ],
+    "created_at": "2024-05-28T10:00:00Z",
+    "updated_at": "2024-05-30T11:00:00Z",
+    "published": true,
+    "published_at": "2024-05-28T11:00:00Z",
+    "slug": "exploring-world-of-virtual-reality",
+    "thumbnail": "https://example.com/thumbnails/virtual-reality.jpg"
+  },
+  {
+    "title": "Sustainable Fashion: Trends and Tips",
+    "author": "Isabella Yellow",
+    "body": "Sustainable fashion is becoming increasingly important as we become more aware of the environmental impact of our clothing choices. This article discusses current trends in sustainable fashion and offers tips for a more eco-friendly wardrobe.",
+    "summary": "A guide to sustainable fashion, including current trends and practical tips for an eco-friendly wardrobe.",
+    "tags": ["sustainable fashion", "environment", "trends"],
+    "category": "Lifestyle",
+    "comments": [
+      {
+        "author": "Lily White",
+        "text": "This is great. I'm trying to make my wardrobe more sustainable.",
+        "date": "2024-05-31T12:30:00Z"
+      }
+    ],
+    "created_at": "2024-05-29T09:00:00Z",
+    "updated_at": "2024-05-31T13:00:00Z",
+    "published": true,
+    "published_at": "2024-05-29T10:00:00Z",
+    "slug": "sustainable-fashion-trends-tips",
+    "thumbnail": "https://example.com/thumbnails/sustainable-fashion.jpg"
+  }
+]
