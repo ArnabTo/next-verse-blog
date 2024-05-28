@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import Nav from "@/components/navbar/Nav";
 
 const layout = ({children}) => {
@@ -5,6 +6,7 @@ const layout = ({children}) => {
         <div>
             <Nav/>
             {children}
+            <Footer/>
         </div>
     );
 };

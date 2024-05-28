@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import AdsSection from "../ads-section/AdsSection";
 import LadingSection from "../landing-section/LadingSection";
 import LatestBlogs from "../latest-blog-section/LatestBlogs";
@@ -12,6 +13,7 @@ const Home = () => {
             <TopBlogs/>
             <AdsSection/>
             <LatestBlogs/>
+            <Footer/>
         </div>
     );
 };
