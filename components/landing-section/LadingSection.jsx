@@ -213,11 +213,11 @@ const LadingSection = () => {
                         <CarouselContent>
                             <CarouselItem>
                                 <div>
-                                    <div className="mt-40 mb-12 lg:max-w-[90%] lg:ml-auto">
+                                    <div className="bg-white p-10 mt-40 mb-12 lg:max-w-[90%] lg:ml-auto rounded-2xl">
                                         <p className="my-3">Newest Blog</p>
                                         {newEstBlog.length && <>
-                                            <h2 className="text-3xl font-bold my-4 max-w-[70%]">{newEstBlog[index].title || <Skeleton />}</h2>
-                                            <p className="text-base text-gray-400 my-4">{newEstBlog[index].body || <Skeleton count={2} />}</p>
+                                            <h2 className=" text-3xl font-bold my-4 max-w-[70%]">{newEstBlog[0].title || <Skeleton />}</h2>
+                                            <p className="text-base text-gray-700 my-4">{newEstBlog[0].body || <Skeleton count={2} />}</p>
                                             <Button className="bg-white text-black rounded-2xl my-4 hover:bg-slate-500 hover:text-white mb-16 z-10">Read More</Button>
                                             <div className="flex">
                                                 <Avatar >
@@ -226,21 +226,20 @@ const LadingSection = () => {
                                                 </Avatar>
                                                 <span className="ml-5">
                                                     <p className=" text-xs text-gray-400">Author</p>
-                                                    <p className="text-white"><b>Elon Musk</b></p>
+                                                    <p className="text-black"><b>Elon Musk</b></p>
                                                 </span>
                                             </div>
                                         </>}
                                     </div>
                                 </div>
                             </CarouselItem>
-
                             <CarouselItem>
                                 <div>
-                                    <div className="mt-40 mb-12 lg:max-w-[90%] lg:ml-auto">
+                                    <div className="bg-white p-10 mt-40 mb-12 lg:max-w-[90%] lg:ml-auto rounded-2xl">
                                         <p className="my-3">Newest Blog</p>
                                         {newEstBlog.length && <>
-                                            <h2 className="text-3xl font-bold my-4 max-w-[70%]">{newEstBlog[index].title || <Skeleton />}</h2>
-                                            <p className="text-base text-gray-400 my-4">{newEstBlog[index].body || <Skeleton count={2} />}</p>
+                                            <h2 className=" text-3xl font-bold my-4 max-w-[70%]">{newEstBlog[1].title || <Skeleton />}</h2>
+                                            <p className="text-base text-gray-700 my-4">{newEstBlog[1].body || <Skeleton count={2} />}</p>
                                             <Button className="bg-white text-black rounded-2xl my-4 hover:bg-slate-500 hover:text-white mb-16 z-10">Read More</Button>
                                             <div className="flex">
                                                 <Avatar >
@@ -249,14 +248,36 @@ const LadingSection = () => {
                                                 </Avatar>
                                                 <span className="ml-5">
                                                     <p className=" text-xs text-gray-400">Author</p>
-                                                    <p className="text-white"><b>Elon Musk</b></p>
+                                                    <p className="text-black"><b>Elon Musk</b></p>
                                                 </span>
                                             </div>
                                         </>}
                                     </div>
                                 </div>
                             </CarouselItem>
-
+                            <CarouselItem>
+                                <div>
+                                    <div className="bg-white p-10 mt-40 mb-12 lg:max-w-[90%] lg:ml-auto rounded-2xl">
+                                        <p className="my-3">Newest Blog</p>
+                                        {newEstBlog.length && <>
+                                            <h2 className=" text-3xl font-bold my-4 max-w-[70%]">{newEstBlog[2].title || <Skeleton />}</h2>
+                                            <p className="text-base text-gray-700 my-4">{newEstBlog[2].body || <Skeleton count={2} />}</p>
+                                            <Button className="bg-white text-black rounded-2xl my-4 hover:bg-slate-500 hover:text-white mb-16 z-10">Read More</Button>
+                                            <div className="flex">
+                                                <Avatar >
+                                                    <AvatarImage src="https://github.com/shadcn.png" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <span className="ml-5">
+                                                    <p className=" text-xs text-gray-400">Author</p>
+                                                    <p className="text-black"><b>Elon Musk</b></p>
+                                                </span>
+                                            </div>
+                                        </>}
+                                    </div>
+                                </div>
+                            </CarouselItem>
+        
                         </CarouselContent>
 
                     </Carousel>
@@ -272,13 +293,17 @@ const LadingSection = () => {
                         <CarouselContent>
                             <CarouselItem>
                                 <div
-                                    className="h-full bg-cover  min-h-[70vh]" style={{ backgroundImage: `url(${newEstBlog[index]?.thumbnail || 'https://i.ibb.co/QFGLQST/pexels-fotoaibe-1643383.jpg'})` }}>
+                                    className="h-full bg-cover  min-h-[77vh]" style={{ backgroundImage: `url(${newEstBlog[0]?.thumbnail || 'https://i.ibb.co/QFGLQST/pexels-fotoaibe-1643383.jpg'})` }}>
                                 </div>
                             </CarouselItem>
-
                             <CarouselItem>
                                 <div
-                                    className="h-full bg-cover  min-h-[70vh]" style={{ backgroundImage: `url(${newEstBlog[index]?.thumbnail || 'https://i.ibb.co/QFGLQST/pexels-fotoaibe-1643383.jpg'})` }}>
+                                    className="h-full bg-cover  min-h-[77vh]" style={{ backgroundImage: `url(${newEstBlog[1]?.thumbnail || 'https://i.ibb.co/QFGLQST/pexels-fotoaibe-1643383.jpg'})` }}>
+                                </div>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <div
+                                    className="h-full bg-cover  min-h-[77vh]" style={{ backgroundImage: `url(${newEstBlog[2]?.thumbnail || 'https://i.ibb.co/QFGLQST/pexels-fotoaibe-1643383.jpg'})` }}>
                                 </div>
                             </CarouselItem>
 
